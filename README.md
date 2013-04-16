@@ -1,6 +1,7 @@
-
 Description
 ===========
+
+MARKCODE FALK NOTE: To get working with Sphinx, in /lib/Client.js problem with SELECT CONNECTION_ID() is sphinxql does not support this call so maybe stick with mysql_thread_id() instead, OR set connection id = 1 with added config paramater if ( isSphinx === true ) { ..
 
 A [node.js](http://nodejs.org/) binding to MariaDB's non-blocking (MySQL-compatible) client
 library.
